@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Popular" representedClassName="Popular" syncable="YES">
+        <attribute name="backdroppath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posterpath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="releasedate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TopRated" representedClassName="TopRated" syncable="YES">
+        <attribute name="backdroppath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posterpath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="releasedate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Upcommings" representedClassName="Upcommings" syncable="YES">
+        <attribute name="backdroppath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="posterpath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="releasedate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Popular" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="TopRated" positionX="-36" positionY="9" width="128" height="120"/>
+        <element name="Upcommings" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
